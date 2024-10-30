@@ -1,0 +1,27 @@
+body {
+  background-image: url(/Thiên\ thạch.jfif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  /* background-color: aqua; Màu cho tất cả nền */
+  background: linear-gradient(
+    to left,
+    rgb(219, 122, 11),
+    rgb(35, 221, 10)
+  ); /*Phối hai màu với nhau, nhưng có lớp màu  với nhau*/
+  background-repeat: no-repeat; /*không lặp lại màu của backround    */
+  background-attachment: fixed;
+}
+p {
+  /* background-color: aqua; Màu cho tất cả nền */
+  background: linear-gradient(
+    to right,
+    rgb(219, 122, 11),
+    rgb(35, 221, 10)
+  ); /*Phối hai màu với nhau, nhưng có lớp màu  với nhau*/
+  background-repeat: no-repeat; /*không lặp lại màu của backround    */
+  background-attachment: fixed;
+}
